@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+html{
+    font-family:'Courier New', Courier, monospace;
+}
+/* Reset some default styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+  }
+  
+  .full-window {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Optional: Background color for clarity */
+  }
+  button:hover{
+    transform: scale(1.1);
+  }
